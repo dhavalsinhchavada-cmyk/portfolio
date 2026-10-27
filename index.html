@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Dhavalsinh Chavada</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Dhavalsinh Chavada – Project, Operations and M&E leader with 20+ years of experience. Dashboards in Power BI, Zoho Analytics and Redash; education programmes across 12 Indian states.">
+<meta property="og:title" content="Dhavalsinh Chavada – Project, Operations & Analytics">
+<meta property="og:description" content="20+ years · 12 states · 250+ schools · 3,000+ educators trained. Dashboards, M&E and programme operations.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://dhavalsinhchavada-cmyk.github.io/">
+<meta property="og:image" content="https://dhavalsinhchavada-cmyk.github.io/assets/og-preview.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="css/style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Dhavalsinh Chavada","jobTitle":"Associate Manager – Analytics & Operations Support","worksFor":{"@type":"Organization","name":"Educational Initiatives Pvt. Ltd."},"address":{"@type":"PostalAddress","addressLocality":"Ahmedabad","addressRegion":"Gujarat","addressCountry":"IN"},"url":"https://dhavalsinhchavada-cmyk.github.io/","sameAs":["https://www.linkedin.com/in/dhavalsinh-chavda-660755b8","https://github.com/dhavalsinhchavada-cmyk"]}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+
+<header class="topbar" id="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="#top" aria-label="Back to top">
+      <span class="mono-mark" id="brandMark">DC</span>
+      <span class="brand-name" id="brandName">Dhavalsinh Chavada</span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Sections">
+      <a href="#impact">Impact</a>
+      <a href="#career">Career</a>
+      <a href="#projects">Projects</a>
+      <a href="#dashboards">Dashboards</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="top-actions">
+      <button class="icon-btn" id="themeBtn" type="button" aria-label="Switch colour theme">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path class="sun" d="M12 4V2m0 20v-2m8-8h2M2 12h2m13.66-5.66 1.41-1.41M4.93 19.07l1.41-1.41m0-11.32L4.93 4.93m14.14 14.14-1.41-1.41M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </button>
+      <button class="icon-btn menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO: everything a recruiter needs on the first screen -->
+  <section class="hero" id="top">
+    <canvas id="heroCanvas" aria-hidden="true"></canvas>
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="badge" id="availability"><span class="dot" aria-hidden="true"></span><span id="availText"></span></p>
+        <h1 id="heroName"></h1>
+        <p class="role-line" aria-live="polite"><span class="role-prefix">Hire me as</span> <span class="typed" id="typed"></span><span class="caret" aria-hidden="true"></span></p>
+        <p class="headline" id="heroHeadline"></p>
+        <p class="intro" id="heroIntro"></p>
+        <ul class="chips" id="heroChips" aria-label="Core tools"></ul>
+        <div class="cta-row" id="heroCtas"></div>
+      </div>
+      <div class="hero-panel" aria-label="Impact in numbers">
+        <p class="panel-label">Impact in numbers</p>
+        <div class="counter-grid" id="counters"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <p class="eyebrow">About</p>
+        <h2>Field programmes, the data they produce, and the people who act on it.</h2>
+      </header>
+      <div class="about-grid">
+        <div class="about-story reveal" id="aboutStory"></div>
+        <div class="flip-row" id="flipCards"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" id="impact">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <p class="eyebrow">Impact</p>
+        <h2>Programmes in 12 states, from districts down to 1.5 lakh+ students.</h2>
+      </header>
+      <div class="impact-grid">
+        <figure class="map-card reveal">
+          <div class="map-wrap" id="tileMap"></div>
+          <figcaption class="map-caption" id="mapCaption">Highlighted tiles are programme states. Tap a tile to see its name.</figcaption>
+        </figure>
+        <div class="impact-side">
+          <div class="footprint reveal" id="footprint" aria-label="Programme footprint"></div>
+          <div class="years-card reveal">
+            <div class="years-head">
+              <h3>21 years, four kinds of work</h3>
+              <p class="muted small">Years by domain, from job dates</p>
+            </div>
+            <div class="years-bar" id="yearsBar" role="img"></div>
+            <ul class="years-legend" id="yearsLegend"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="career">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <p class="eyebrow">Career</p>
+        <h2>Five promotions in 14 years at Educational Initiatives.</h2>
+      </header>
+      <div class="ladder reveal" id="ladder" aria-label="Promotion path at Educational Initiatives"></div>
+      <ol class="timeline" id="timeline"></ol>
+    </div>
+  </section>
+
+  <section class="section alt" id="projects">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <p class="eyebrow">Featured projects</p>
+        <h2>Five pieces of work, each with the problem, the approach and the result.</h2>
+      </header>
+      <div class="filters" id="filters" role="toolbar" aria-label="Filter projects"></div>
+      <div class="project-grid" id="projectGrid"></div>
+    </div>
+  </section>
+
+  <section class="section" id="dashboards">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <p class="eyebrow">Dashboards</p>
+        <h2>Dashboards built for the person who has to decide.</h2>
+        <p class="muted" id="dashTools"></p>
+      </header>
+      <div class="dash-grid">
+        <div class="dash-tree reveal" id="dashTree" role="tablist" aria-label="Sales dashboards by level"></div>
+        <div class="dash-panel reveal" id="dashPanel" role="tabpanel" aria-live="polite"></div>
+      </div>
+      <div class="dash-others" id="dashOthers"></div>
+    </div>
+  </section>
+
+  <section class="section alt" id="skills">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <p class="eyebrow">Skills</p>
+        <h2>Hands-on skills, learned and used at work every day.</h2>
+        <p class="legend-line"><span class="meter-key"><i class="on"></i><i class="on"></i><i class="on"></i></span> Advanced <span class="meter-key"><i class="on"></i><i class="on"></i><i></i></span> Proficient <span class="meter-key"><i class="on"></i><i></i><i></i></span> Learning</p>
+      </header>
+      <div class="skill-grid" id="skillGrid"></div>
+    </div>
+  </section>
+
+  <section class="section" id="training">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <p class="eyebrow">Training & capacity building</p>
+        <h2>3,000+ educators trained, in the room and online.</h2>
+      </header>
+      <div class="training-grid">
+        <div class="train-stats reveal" id="trainStats"></div>
+        <div class="train-detail reveal">
+          <h3>How</h3>
+          <ul class="mode-list" id="trainModes"></ul>
+          <h3>Who</h3>
+          <ul class="chips" id="trainAudience"></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" id="testimonials" hidden>
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <p class="eyebrow">Testimonials</p>
+        <h2>What colleagues say.</h2>
+      </header>
+      <div class="quote-track" id="quotes"></div>
+    </div>
+  </section>
+
+  <section class="section" id="education">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <p class="eyebrow">Education & languages</p>
+        <h2>Learning on the job, and still learning.</h2>
+      </header>
+      <div class="edu-grid" id="eduGrid"></div>
+      <p class="lang-line reveal"><span class="muted">Languages</span> <span id="languages"></span></p>
+    </div>
+  </section>
+
+  <section class="section contact" id="contact">
+    <div class="wrap contact-grid">
+      <div class="contact-copy reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Let's talk about your next programme or analytics role.</h2>
+        <ul class="contact-list" id="contactList"></ul>
+      </div>
+      <form class="contact-form reveal" id="contactForm" novalidate>
+        <label for="cfName">Your name</label>
+        <input id="cfName" name="name" type="text" autocomplete="name" required>
+        <label for="cfEmail">Your email</label>
+        <input id="cfEmail" name="email" type="email" autocomplete="email" required>
+        <label for="cfMsg">Message</label>
+        <textarea id="cfMsg" name="message" rows="4" required></textarea>
+        <button class="btn primary" type="submit" id="cfSubmit">Send message</button>
+        <p class="form-note" id="formNote" role="status"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <p>© <span id="year">2026</span> Dhavalsinh Chavada · Ahmedabad, India</p>
+    <p class="muted">Built with HTML, CSS and JavaScript · Hosted on GitHub Pages</p>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" type="button" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 19V5m-6 6 6-6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</button>
+
+<dialog class="modal" id="modal" aria-labelledby="modalTitle">
+  <div class="modal-inner" id="modalBody"></div>
+</dialog>
+
+<script src="data/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
